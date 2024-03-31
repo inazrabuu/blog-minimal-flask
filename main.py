@@ -257,4 +257,4 @@ def contact():
 
 
 if __name__ == "__main__":
-  app.run(debug=True, port=5004)
+  app.run(debug=app_config['DEBUG'], port=5004)
