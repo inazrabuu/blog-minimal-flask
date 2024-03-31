@@ -1,4 +1,5 @@
 app_config = {
   'SQLALCHEMY_DATABASE_URI': '',
-  'SECRET_KEY': ''
+  'SECRET_KEY': '',
+  'DEBUG': True
 }
