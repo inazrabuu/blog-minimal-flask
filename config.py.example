@@ -1,0 +1,4 @@
+app_config = {
+  'SQLALCHEMY_DATABASE_URI': '',
+  'SECRET_KEY': ''
+}
