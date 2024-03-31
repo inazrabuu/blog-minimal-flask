@@ -144,7 +144,7 @@ def login():
       f = request.form
       res = db.session.execute(db.select(User).where(User.email == f['email']))
       user = res.scalar()
-      print(user)
+      
       if not user:
         flash('Invalid user, please try again')
       elif not check_password_hash(user.password, f['password']):
